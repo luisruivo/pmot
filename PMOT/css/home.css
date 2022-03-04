@@ -122,7 +122,7 @@ nav {
     position: absolute;
     background-color: #85dcb8;
     border-radius: 0px 0px 4px 4px;
-    padding: 30px 0 10px 15px;
+    padding: 30px 50px 10px 15px;
 }
 
 .desktop-services li:hover .sub-menu {
@@ -256,7 +256,7 @@ nav {
 }
 
 .section-1-container .main-image {
-    background-image: url(/images/abi-picture.JPG);
+    background-image: url(/PMOT/images/abi-picture.JPG);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -988,9 +988,9 @@ hr {
     }
 
     #logo-mobile img {
-        max-height: 80px;
+        max-height: 90px;
         width: auto;
-        padding: 5px 0 5px 20px;
+        padding: 5px 0 5px 10px;
     }
 
     .navbar-links li {
@@ -999,7 +999,7 @@ hr {
     }
 
     .section-1 {
-        padding-top: 100px;
+        padding-top: 110px;
     }
 }
 
@@ -1108,7 +1108,7 @@ hr {
     }
 
     .section-1 {
-        padding-top: 20px;
+        padding-top: 10px;
     }
 
     .slideshow-container .text {
@@ -1324,7 +1324,7 @@ hr {
     .footer-logo-section {
         width: 100%;
         padding: 0;
-        text-align: left;
+        text-align: center;
     }
 
     .footer-logo-section img {
@@ -1332,23 +1332,24 @@ hr {
     }
 
     .footer-logo-text {
-        max-width: 350px;
+        width: 100%;
+        padding: 0 50px;
+        text-align: center;
     }
 
     .footer-support {
         width: 100%;
+        padding-top: 30px;
     }
 
     .support {
         padding: 0;
-    }
-
-    .footer-support {
-        padding-top: 30px;
+        text-align: center;
     }
 
     .footer-support a {
         padding: 0;
+        text-align: center;
     }
 
     .footer-contact-info {
@@ -1356,8 +1357,26 @@ hr {
         padding-top: 30px;
     }
 
+    .contact {
+        width: 100%;
+        padding: 0;
+        text-align: center;
+    }
+
+    .contact-phone {
+        padding: 0;
+        text-align: center;
+    }
+
     .contact-envelope {
+        padding: 0;
+        text-align: center;
         font-size: 14px;
+    }
+
+    .footer-social-media-icons {
+        justify-content: center;
+        padding-top: 20px;
     }
 
     hr {
@@ -1835,6 +1854,12 @@ hr {
     }
 }
 
+@media only screen and (max-width: 480px) {
+    .footer-logo-text {
+        padding: 0 10px;
+    }
+}
+
     
 @media only screen and (max-width: 460px) {
     .privacy-policy-1 {
@@ -1842,18 +1867,12 @@ hr {
     }
 
     .find-out-text {
-        bottom: 200px;
-        padding: 5px;
-        color: white;
         font-size: 24px;
-        text-align: center;
-        align-items: center;
-        width: 100%;
     }
     
     .cbt-your-own-home-button {
         bottom: 150px;
-        text-align: center;
+        left: 20px;
     }
 
     .cbt-free-consultation-button {
@@ -1872,7 +1891,7 @@ hr {
     }
 
     .your-own-home-text {
-        font-size: 1px;
+        font-size: 16px;
     }
 }
 
@@ -1947,7 +1966,7 @@ hr {
     }
     
     .cbt-your-own-home-button {
-        bottom: 170px;
+        bottom: 140px;
         text-align: center;
     }
 

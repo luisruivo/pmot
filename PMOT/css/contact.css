@@ -639,9 +639,9 @@ hr {
     }
 
     #logo-mobile img {
-        max-height: 80px;
+        max-height: 90px;
         width: auto;
-        padding: 5px 0 5px 20px;
+        padding: 5px 0 5px 10px;
     }
 
     .navbar-links li {
@@ -650,7 +650,7 @@ hr {
     }
 
     .contact-section-1 {
-        padding-top: 100px;
+        padding-top: 110px;
     }
 }
 
@@ -665,8 +665,6 @@ hr {
         font-size: 17px;
     }
 }
-
-
 
 @media only screen and (max-width: 990px) {
     nav {
@@ -786,40 +784,37 @@ hr {
 
     .footer-container {
         flex-direction: column;
-        text-align: left;
     }
 
     .footer-logo-section {
         width: 100%;
+        padding: 0;
+        text-align: center;
     }
 
     .footer-logo-section img {
-        padding: 5px;
-    }
-
-    .footer-logo-section p {
-        max-width: 450px;
-        padding-right: 5px;
+        padding: 10px;
     }
 
     .footer-logo-text {
-        padding: 5px;
+        width: 100%;
+        padding: 0 50px;
+        text-align: center;
     }
 
     .footer-support {
         width: 100%;
+        padding-top: 30px;
     }
 
     .support {
         padding: 0;
-    }
-
-    .footer-support {
-        padding-top: 30px;
+        text-align: center;
     }
 
     .footer-support a {
         padding: 0;
+        text-align: center;
     }
 
     .footer-contact-info {
@@ -827,12 +822,26 @@ hr {
         padding-top: 30px;
     }
 
+    .contact {
+        width: 100%;
+        padding: 0;
+        text-align: center;
+    }
+
+    .contact-phone {
+        padding: 0;
+        text-align: center;
+    }
+
     .contact-envelope {
+        padding: 0;
+        text-align: center;
         font-size: 14px;
     }
 
-    .footer-facebook, .footer-twitter, .footer-instagram {
-        text-align: center;
+    .footer-social-media-icons {
+        justify-content: center;
+        padding-top: 20px;
     }
 
     .copyright-container {
@@ -850,6 +859,11 @@ hr {
     }
 }
 
+@media only screen and (max-width: 480px) {
+    .footer-logo-text {
+        padding: 0 10px;
+    }
+}
 
 @media only screen and (max-width: 400px) {
     .contact-choice-4 button {
