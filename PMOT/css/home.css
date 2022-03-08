@@ -2023,4 +2023,8 @@ hr {
     .text span {
         padding-top: 5px;
     }
+
+    .next {
+        right: -250px;
+    }
 }
