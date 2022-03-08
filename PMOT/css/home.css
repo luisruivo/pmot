@@ -1844,6 +1844,12 @@ hr {
     }
 }
 
+@media only screen and (max-width: 700px) {
+    .next {
+        right: -88%;
+    }
+}
+
 @media only screen and (max-width: 550px) {
     .next {
         right: -87%;
@@ -1865,7 +1871,7 @@ hr {
     }
     
     .next {
-        right: -87%;
+        right: -85%;
     }
 }
 
@@ -1901,12 +1907,12 @@ hr {
         left: 15%;
     }
 
-    .next {
-        right: -85%;
-    }
-
     .your-own-home-text {
         font-size: 16px;
+    }
+
+    .next {
+        right: -84%;
     }
 }
 
@@ -1931,6 +1937,10 @@ hr {
         font-size: 14px;
         padding: 7px;
     }
+
+    .next {
+        right: -83%;
+    }
 }
 
 @media only screen and (max-width: 400px) {
@@ -1940,7 +1950,7 @@ hr {
 
     .slideshow-container .text {
         left: 15%;
-        max-width: 220px;
+        max-width: 230px;
         height: 75px;
         font-size: 10px;
         bottom: 90px;
