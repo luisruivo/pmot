@@ -1941,18 +1941,18 @@ hr {
     .slideshow-container .text {
         left: 15%;
         max-width: 220px;
-        height: 70px;
+        height: 75px;
         font-size: 10px;
         bottom: 80px;
     }
 
     .prev, .next {
         font-size: 20px;
-        top: -250px;
+        top: -100px;
     }
 
     .next {
-        right: -83%;
+        right: -85%;
     }
 
     .dot {
