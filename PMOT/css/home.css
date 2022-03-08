@@ -891,8 +891,7 @@ nav {
     font-size: 20px;
 }
 
-.contact-phone {
-    display: block;
+.contact-phone a {
     text-align: left;
     text-decoration: none;
     color: #919699;
@@ -903,8 +902,7 @@ nav {
     margin: 5px 0;
 }
 
-.contact-envelope {
-    display: block;
+.contact-envelope a {
     text-align: left;
     text-decoration: none;
     color: #919699;
@@ -1023,6 +1021,12 @@ hr {
 
     .section-1 .sub-title {
         text-align: center;
+    }
+}
+
+@media only screen and (max-width: 1018px) {
+    .contact-envelope {
+        font-size: 14px;
     }
 }
 
@@ -1983,7 +1987,7 @@ hr {
 }
 
 
-@media only screen and (max-width: 315px) {
+@media only screen and (max-width: 320px) {
     .contact-envelope {
         font-size: 13px;
     }
