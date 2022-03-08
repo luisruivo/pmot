@@ -1840,13 +1840,11 @@ hr {
 
 @media only screen and (max-width: 700px) {
     .next {
-        right: -89%;
-    }
-}
-
-@media only screen and (max-width: 700px) {
-    .next {
         right: -88%;
+    }
+
+    .your-own-home-button {
+        bottom: 150px;
     }
 }
 
@@ -1959,7 +1957,7 @@ hr {
     .prev, .next {
         font-size: 20px;
         top: -100px;
-    }
+    }   
 
     .next {
         right: -85%;
@@ -1978,6 +1976,11 @@ hr {
     }
 }
 
+@media only screen and (max-width: 385px) {
+    .find-out-text {
+        font-size: 20px;
+    }
+}
 
 
 @media only screen and (max-width: 385px) {
@@ -2009,5 +2012,15 @@ hr {
 
     .contact-envelope a {
         font-size: 13px;
+    }
+
+    .text {
+        width: 215px;
+        font-size: 15px;
+        padding: 5px;
+    }
+
+    .text span {
+        padding-top: 5px;
     }
 }
