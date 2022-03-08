@@ -1537,7 +1537,7 @@ hr {
     }
     
     .prev, .next {
-        top: -62%;
+        top: -220px;
         padding: 5px;
         font-size: 30px;
     }
@@ -1943,7 +1943,7 @@ hr {
         max-width: 220px;
         height: 75px;
         font-size: 10px;
-        bottom: 80px;
+        bottom: 90px;
     }
 
     .prev, .next {
