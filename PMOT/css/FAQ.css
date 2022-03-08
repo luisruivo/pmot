@@ -532,7 +532,7 @@ nav {
 }
 
 .contact-phone, .contact-envelope {
-    padding-left: 20%;
+    text-align: left;
 }
 
 .contact-phone .fas, .contact-envelope .far{
@@ -544,8 +544,7 @@ nav {
     font-size: 20px;
 }
 
-.contact-phone {
-    display: block;
+.contact-phone a {
     text-align: left;
     text-decoration: none;
     color: #919699;
@@ -556,8 +555,7 @@ nav {
     margin: 5px 0;
 }
 
-.contact-envelope {
-    display: block;
+.contact-envelope a {
     text-align: left;
     text-decoration: none;
     color: #919699;
@@ -568,9 +566,13 @@ nav {
     margin: 5px 0;
 }
 
+.contact-phone a:hover, .contact-envelope a:hover {
+    color: #85dcb8;
+}
+
 .footer-social-media-icons {
     display: flex;
-    padding: 5px 0;
+    padding-top: 20px;
 }
 
 .footer-facebook, .footer-twitter, .footer-instagram {
@@ -675,6 +677,12 @@ hr {
 
     .section-1 .sub-title {
         text-align: center;
+    }
+}
+
+@media only screen and (max-width: 1031px) {
+    .contact-envelope a {
+        font-size: 14px;
     }
 }
 
@@ -1041,8 +1049,8 @@ hr {
     }
 }
 
-@media only screen and (max-width: 315px) {
-    .contact-envelope {
+@media only screen and (max-width: 325px) {
+    .contact-envelope a {
         font-size: 13px;
     }
 }

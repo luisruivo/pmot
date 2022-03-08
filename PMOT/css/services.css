@@ -519,7 +519,7 @@ nav {
 }
 
 .contact-phone, .contact-envelope {
-    padding-left: 20%;
+    text-align: left;
 }
 
 .contact-phone .fas, .contact-envelope .far{
@@ -531,8 +531,7 @@ nav {
     font-size: 20px;
 }
 
-.contact-phone {
-    display: block;
+.contact-phone a {
     text-align: left;
     text-decoration: none;
     color: #919699;
@@ -543,8 +542,7 @@ nav {
     margin: 5px 0;
 }
 
-.contact-envelope {
-    display: block;
+.contact-envelope a {
     text-align: left;
     text-decoration: none;
     color: #919699;
@@ -555,9 +553,13 @@ nav {
     margin: 5px 0;
 }
 
+.contact-phone a:hover, .contact-envelope a:hover {
+    color: #85dcb8;
+}
+
 .footer-social-media-icons {
     display: flex;
-    padding: 5px 0;
+    padding-top: 20px;
 }
 
 .footer-facebook, .footer-twitter, .footer-instagram {
@@ -861,6 +863,7 @@ hr {
     .cbt-section-2-container-2 {
         flex-direction: column;
         text-align: center;
+        padding-right: 0;
     }
 
     .cbt-section-2-pic-wrapper img {
@@ -964,6 +967,23 @@ hr {
         font-size: 14px;
     }
 }
+
+@media only screen and (max-width: 344px) {
+    .contact-envelope a {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 324px) { 
+    .free-consultation-button {
+        font-size: 14px;
+    }
+
+    .contact-envelope a {
+        font-size: 13px;
+    }
+}
+
 
 @media only screen and (max-width: 320px) {
     .cbt-your-own-home-button {
