@@ -879,7 +879,7 @@ nav {
 }
 
 .contact-phone, .contact-envelope {
-    padding-left: 20%;
+    text-align: left;
 }
 
 .contact-phone .fas, .contact-envelope .far{
@@ -913,9 +913,13 @@ nav {
     margin: 5px 0;
 }
 
+.contact-phone a:hover, .contact-envelope a:hover {
+    color: #85dcb8;
+}
+
 .footer-social-media-icons {
     display: flex;
-    padding: 5px 0;
+    padding-top: 20px;
 }
 
 .footer-facebook, .footer-twitter, .footer-instagram {
@@ -1023,6 +1027,13 @@ hr {
         text-align: center;
     }
 }
+
+@media only screen and (max-width: 1031px) {
+    .contact-envelope a {
+        font-size: 14px;
+    }
+}
+
 
 @media only screen and (max-width: 1018px) {
     .contact-envelope {
@@ -1937,6 +1948,7 @@ hr {
 
     .prev, .next {
         font-size: 20px;
+        top: -250px;
     }
 
     .next {
@@ -1984,12 +1996,8 @@ hr {
     .free-consultation-button {
         font-size: 14px;
     }
-}
 
-
-@media only screen and (max-width: 320px) {
-    .contact-envelope {
+    .contact-envelope a {
         font-size: 13px;
     }
 }
-
