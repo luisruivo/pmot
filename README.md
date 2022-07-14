@@ -1,6 +1,6 @@
 # Peaceful Mind Online Therapy
 
-![pmot pic](https://user-images.githubusercontent.com/79776115/156762155-f151fb8f-e130-491f-85e5-75c3d4428bc1.PNG)
+![pmot_picture](https://user-images.githubusercontent.com/79776115/179025939-1cf60593-cd2c-45ea-9a35-c211851ff74e.PNG)
 
 Responsive professional website. 
 
